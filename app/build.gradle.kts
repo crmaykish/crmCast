@@ -67,7 +67,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    implementation("com.google.android.exoplayer:exoplayer:2.19.1")
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
     implementation ("org.simpleframework:simple-xml:2.7.1")
 }

@@ -26,10 +26,15 @@
         android:layout_marginTop="16dp"/>
 
     <TextView
-        android:id="@+id/episodeLabel"
+        android:id="@+id/nowPlaying"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Episodes:"
         android:layout_below="@id/myButton"/>
+
+    <TextView
+        android:id="@+id/currentIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nowPlaying"/>
 
 </RelativeLayout>
